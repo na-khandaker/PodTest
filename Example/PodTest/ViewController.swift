@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import PodTest
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       let log = Logger()
+        log.testPrint()
     }
 
     override func didReceiveMemoryWarning() {
